@@ -10,22 +10,22 @@ The github repo was created on the 25th of May
 The cities are New York, Washington and Chicago. The user can choose a city and then narrow down the query by months and weekdays***
 
 ### Files used
-+python file 'project_02_bike_data.py'
-+CSV_files for the query 
++ python file 'project_02_bike_data.py'
++ CSV_files for the query 
 
 ### Credits
 
-+seconds to hh:mm:ss for helper function 
++ seconds to hh:mm:ss for helper function 
 https://stackoverflow.com/questions/1384406/convert-seconds-to-hhmmss-in-python
 https://www.askpython.com/python/examples/convert-seconds-hours-minutes
 
-+Chunk algorithm: 
++ Chunk algorithm: 
 Udacity Generator Expressions
 ChatGTP
 
-+user input 'not in' method: 
++ user input 'not in' method: 
 ChatGTP
 
-+cpu excecution time
++ cpu excecution time
 https://pynative.com/python-get-execution-time-of-program/
 
