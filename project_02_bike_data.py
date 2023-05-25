@@ -1,11 +1,12 @@
 import pandas as pd
 import time
 
-### Functions ###
+###Dictionary for cities and their corelating .csv files###
 CITY_DATA = { 'chicago': 'chicago.csv',
 			'new york': 'new_york_city.csv',
 			'washington': 'washington.csv' }
-
+			
+###Helper functions used for improving readability in the printed results###
 def index_to_week_day(ind):
 	if int(ind) in range(0,7):
 		days = { 0 : 'Monday', 1 : 'Tuesday', 2 : 'Wednesday', 3 : 'Thursday', 4 : 'Friday', 5 : 'Saturday', 6 : 'Sunday'}
@@ -23,7 +24,7 @@ def seconds_to_time(sec):
 	str_time = time.strftime('%H:%M:%S', inp_time)
 	return str_time
 
-
+### Functions ###
 def load_data(city, month, day):
 
 	"""
