@@ -40,7 +40,7 @@ def load_data(city, month, day):
 	
 	# load data file into a dataframe
 	#TODO: REPLACE FILE PATH WITH LOCAL ONE
-	df = pd.read_csv(r"C:\Users\wimmersa\OneDrive - Mediengruppe RTL\Udactiy\#3 Git Project\CSV_files\{}".format(CITY_DATA[city]))
+	df = pd.read_csv(r"C:\Users\wimmersa\OneDrive - Mediengruppe RTL\Udactiy\#3 Git Project\Udacity_Github\pdsnd_github\CSV_files\{}".format(CITY_DATA[city]))
 
 	# convert the Start Time column to datetime
 	df['Start Time'] = pd.to_datetime(df['Start Time'])
