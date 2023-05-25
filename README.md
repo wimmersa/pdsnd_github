@@ -1,17 +1,31 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+project was created on the 2nd of May and finalized for submission on the 16th of May 
+The github repo was created on the 25th of May 
 
 ### Project Title
-Replace the Project Title
+**#2 Share Bike Data Project**
 
 ### Description
-Describe what your project is about and what it does
+***This project gives the user a interactive tool to check out the rental information in three cities in the us. 
+The cities are New York, Washington and Chicago. The user can choose a city and then narrow down the query by months and weekdays***
 
 ### Files used
-Include the files used
++python file 'project_02_bike_data.py'
++CSV_files for the query 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+
++seconds to hh:mm:ss for helper function 
+https://stackoverflow.com/questions/1384406/convert-seconds-to-hhmmss-in-python
+https://www.askpython.com/python/examples/convert-seconds-hours-minutes
+
++Chunk algorithm: 
+Udacity Generator Expressions
+ChatGTP
+
++user input 'not in' method: 
+ChatGTP
+
++cpu excecution time
+https://pynative.com/python-get-execution-time-of-program/
 
